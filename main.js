@@ -10,6 +10,7 @@ let userInput = parseFloat(document.querySelector(".total-bill").value);
 
     let tip15 = userInput * 0.15;
     let tip20 = userInput * 0.20;
+    
 
     document.querySelector(".output").innerHTML =
         `Bill: $${userInput.toFixed(2)}<br>
